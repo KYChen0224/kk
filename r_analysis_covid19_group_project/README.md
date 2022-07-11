@@ -1,0 +1,7 @@
+# Project Proposal
+  
+As covid-19 virus continues spreading in the United States, many scientists state that the virus will likely be with us for a long time. Our group is interested in how the effects of covid-19 present in each state of the US and the performance of the three main vaccines received by people live in the US.  
+  
+We collect data from the Centers for Disease Control and Prevention (CDC) official website with time interval from 12/13/2020 to 12/01/2021. We mainly use variables from two datasets, one is the ["United States COVID-19 Cases and Deaths"](https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36) and the other is ["COVID-19 Vaccinations in the United States"](https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc).  
+
+In this project, we will focus on the relationship between complete vaccination rate and the number of new daily cases. Also, we will compare the daily mortality rate of different states with the number of new daily cases in order to analyze the vaccine effects of different companies. We plan to group the data by each states of the US using data wrangling technics in packages like "data.table", and visualize the summary results using packages like "ggplot2". Finally, we will use a SEIR model to monitor the spread of covid-19 and take a specific look at examples in Illinois.

@@ -1,0 +1,60 @@
+---
+title: "Project Presentation"
+subtitle: 'A Brief Analysis of Vaccine Performance and Virus Spread Model of COVID-19'
+author: "Michael Zhuang, Keyu Chen, Yuqi Zhang"
+date: "12/9/2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html
+```
+
+## Introduction  
+  
+#### Topics  
+  
+- Covid-19 vaccination rate vs. daily cases 
+- Performance of three major vaccine companies  
+- Virus spread model  
+
+#### Datasets  
+  
+- CDC COVID-19 Vaccination in the United States  
+  - 23.3k+ rows and 80 columns  
+  - variables include Date, Location, Series_Complete_Yes...
+  
+- United States COVID-19 Cases and Deaths by State over Time  
+  - 41.2k+ rows and 15 columns  
+  - variables include submission_date, state, new_case, new death...
+
+## Analysis | Vaccination rate with daily cases
+
+- Turn off alarm
+- Get out of bed
+
+## Analysis | Comparison of three major vaccine brands
+
+- Overall trend in the US  
+  
+![](Plots/vac_us.png){width=30%}
+  
+- Performance of vaccines from Pfizer, Moderna, and Janssen  
+  
+![vac_case](Plots/pie1.png){width=28%}
+![vac_death](Plots/pie2.png){width=28%}
+
+## Analysis | SEIR model  
+  
+- Introduce the model  
+  
+![](Plots/SEIR_flow_diag.png){width=25%}
+  
+- Applying the model to data from Illinois  
+
+![](Plots/SEIR-result-keyuc2.png){width=40%}
+
+# Conclusion
+
+
